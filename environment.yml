@@ -1,0 +1,12 @@
+name: jupyter-notebook
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pyfmi
+  - matplotlib-base
+  - pandas
+  - ipywidgets
+  - jupyterlab>=3.1
+  - voila>=0.2.11
+  - numpy==1.19.5
